@@ -1,0 +1,86 @@
+/* immagine di sfondo */
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+/* riquadro opaco */
+.container {
+width:700px;
+height:500px;
+padding:100px;
+color:grey;
+background-color: black;
+background: rgb(0,0,0,0.6);
+margin: auto;
+border-radius: 10px 10px 10px 10px;
+}
+/* intestazione */
+header{
+  color: #32CD32;
+  text-align: center;
+  opacity: 1;
+  font-family: monospace;
+  font-size: 17px;
+  line-height: 5px;
+}
+/* logo */
+.logo{
+  width: 200px;
+  height: 95px;
+  opacity: 1;
+}
+/* sfondo bottoni */
+.background-buttons{
+  background-color: #32CD32;
+  margin: 10px;
+  border: 10px;
+  padding: 10px;
+  opacity: 0.9;
+}
+/* carica primo monopattino */
+.elettric-charge1{
+    background-color: orange;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0.8;
+}
+/* carica secondo monopattino */
+.elettric-charge2{
+    background-color: #32CD32;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0.8;
+}
+/* carica terzo monopattino */
+.elettric-charge3{
+    background-color: red;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0.8;
+}
+/* stato carica e posizione monopattini */
+h4{
+  line-height: 3px;
+  opacity: 1;
+  font-family: monospace;
+  font-size: 15px;
+  color: white;
+  opacity: 0.8;
+}
+/* nome monopattini */
+label{
+  line-height: 35px;
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+  opacity: 0.8;
+}
